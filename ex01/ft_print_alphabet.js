@@ -3,6 +3,8 @@ contenant l’alphabet en minuscule sera passée en paramètre de la
 fonction. Chaque lettre devra être stockée dans une cellule du
 tableau.*/
 
-let string ='alphabet';
+var alphabet = ('abcdefghijklmonpqrstuvwxyz');
 
-alert( str.split('abcdefghijklmnopqrstuvwxyz'));
+Array.from(alphabet);
+
+console.log(Array.from(alphabet));
